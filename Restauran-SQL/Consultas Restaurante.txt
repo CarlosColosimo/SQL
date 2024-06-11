@@ -1,0 +1,9 @@
+ CONSULTAS
+
+SELECT * FROM comidas WHERE Numero = 5;
+
+SELECT * FROM comidas WHERE Plato LIKE 'M%';
+
+SELECT * FROM comidas WHERE Precio > 10000;
+
+SELECT * FROM comidas WHERE Precio < 7000;
