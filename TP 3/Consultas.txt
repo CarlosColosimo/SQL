@@ -1,0 +1,10 @@
+CONSULTAS
+
+A. Listar todos los autores de que sean de Nacionalidad Argentina
+SELECT * FROM Autores WHERE Nacionalidad = "Argentino"
+
+B. Listar todos los autores que tengan hayan publicado entre 1960 a 1980.
+SELECT * FROM Autores WHERE AñoPublicacion BETWEEN 1960 AND 1980
+
+C. Mostrar el promedio de la edad de publicación. (avg).
+SELECT AVG(EdadPublicacion) as PromedioEdadPublicacion FROM Autores
